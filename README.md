@@ -1,5 +1,17 @@
 # Jekyll Tutorial
 
+To run the site locally make sure all dependencies are installed (see [setup](#Setup) below) and do:
+
+```bash
+bundle exec jekyll serve
+```
+
+To create a production bundle that gets outputted in the `_site` directory do:
+
+```bash
+JEKYLL_ENV=production bundle exec jekyll build
+```
+
 ## 01 [Setup](https://jekyllrb.com/docs/step-by-step/01-setup/)
 
 1. install [rbenv](https://github.com/rbenv/rbenv) to manage Ruby installs
