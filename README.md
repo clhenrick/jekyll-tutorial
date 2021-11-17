@@ -91,7 +91,9 @@ Each `post` has the following variables:
 
 ## 09 [Collections](https://jekyllrb.com/docs/step-by-step/09-collections/)
 
-Collections allow for grouping blog posts by author, so that each author can have their own page.
+Collections are similar to posts except the content doesn’t have to be grouped by date.
+
+IMO it's a bit complex to set up...
 
 ## 10 [Deployment](https://jekyllrb.com/docs/step-by-step/10-deployment/)
 
