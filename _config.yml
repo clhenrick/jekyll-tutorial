@@ -1,7 +1,10 @@
+# specify additional collections, similar to posts
 collections:
   authors:
     output: true
 
+# specify any default front matter variables
+# e.g. which layout to use from the _layouts dir
 defaults:
   - scope:
       path: ""

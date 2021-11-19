@@ -47,10 +47,17 @@ Liquid templates have three main components: objects, tags, and filters.
 
 ## 03 [Front Matter](https://jekyllrb.com/docs/step-by-step/03-front-matter/)
 
-Front matter is a snippet of YAML placed between two triple-dashed lines at the start of a file.
+Front matter is a snippet of YAML placed between two triple-dashed lines at the start of a file:
 
-- You may set variables in a page and call them in the template
+```
+---
+---
+```
+
+- You may set variables in a page and use them in the Liquid template
 - Front matter is required for Jekyll to interpret / process a file
+- Any variable assigned in the front matter is accessible in the page's layout or includes
+- You don't need to have any variables defined between the triple dashes, you can leave them empty. This is useful for things like CSS.
 
 ## 04 [Layouts](https://jekyllrb.com/docs/step-by-step/04-layouts/)
 

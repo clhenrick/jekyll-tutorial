@@ -2,13 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>
+      <!-- `page` is a global variable -->
+      {{ page.title }}
+    </title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- insert head tags rendered RSS and SEO plugins -->
     {% feed_meta %}
     {% seo %}
   </head>
   <body>
+    <!-- insert the navigation "include" (aka a partial in other systems) -->
     {% include navigation.html %}
+    <!-- insert main content HTML, e.g. from Markdown -->
     {{ content }}
   </body>
 </html>
